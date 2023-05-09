@@ -31,8 +31,9 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(screensaver));
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.picture_panel = new System.Windows.Forms.Panel();
-            this.timer2 = new System.Windows.Forms.Timer(this.components);
+            this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // timer1
@@ -40,18 +41,24 @@
             this.timer1.Enabled = true;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
-            // picture_panel
+            // label1
             // 
-            this.picture_panel.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("picture_panel.BackgroundImage")));
-            this.picture_panel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.picture_panel.Location = new System.Drawing.Point(611, 239);
-            this.picture_panel.Name = "picture_panel";
-            this.picture_panel.Size = new System.Drawing.Size(135, 99);
-            this.picture_panel.TabIndex = 0;
+            this.label1.Image = ((System.Drawing.Image)(resources.GetObject("label1.Image")));
+            this.label1.Location = new System.Drawing.Point(151, 248);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(173, 97);
+            this.label1.TabIndex = 3;
+            this.label1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.label1_MouseMove);
             // 
-            // timer2
+            // pictureBox1
             // 
-            this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
+            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(800, 450);
+            this.pictureBox1.TabIndex = 4;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.pictureBox1_MouseMove);
             // 
             // screensaver
             // 
@@ -60,13 +67,16 @@
             this.BackColor = System.Drawing.Color.Black;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.picture_panel);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "screensaver";
             this.Text = "screensaver";
+            this.TopMost = true;
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Click += new System.EventHandler(this.screensaver_Click);
-            this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.screensaver_MouseMove);
+            //this.MouseEnter += new System.EventHandler(this.screensaver_MouseEnter);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -74,7 +84,7 @@
         #endregion
 
         private System.Windows.Forms.Timer timer1;
-        private System.Windows.Forms.Panel picture_panel;
-        private System.Windows.Forms.Timer timer2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

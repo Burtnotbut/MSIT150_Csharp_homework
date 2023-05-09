@@ -158,6 +158,67 @@ namespace pos_food
             main_textBox.Clear();  //內容清除
         }
 
+        private void 新增NToolStripButton_Click(object sender, EventArgs e)
+        {
+            openFileDialog1.FileName = "";  //將openFileDialog1的FileName屬性設為空字串
+            main_textBox.Clear();  //內容清除
+        }
+
+        private void 開啟OToolStripButton_Click(object sender, EventArgs e)
+        {
+            if (openFileDialog1.ShowDialog() == DialogResult.OK)
+            {
+                main_textBox.Text = File.ReadAllText(openFileDialog1.FileName, Encoding.Default);
+            }
+        }
+
+        private void 儲存SToolStripButton_Click(object sender, EventArgs e)
+        {
+            if (openFileDialog1.FileName == "") //沒有已開啟檔名，以另存新檔處理
+            {
+                if (saveFileDialog1.ShowDialog() == DialogResult.OK)
+                {
+                    File.WriteAllText(saveFileDialog1.FileName, main_textBox.Text, Encoding.Default);
+                }
+            }
+            else  //已有開啟檔名，直接回存，新內容寫入舊檔案
+            {
+                File.WriteAllText(saveFileDialog1.FileName, main_textBox.Text, Encoding.Default);
+            }
+        }
+
+        private void 列印PToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void 剪下UToolStripButton_Click(object sender, EventArgs e)
+        {
+            main_textBox.Cut();
+        }
+
+        private void 複製CToolStripButton_Click(object sender, EventArgs e)
+        {
+            main_textBox.Copy();
+        }
+
+        private void 貼上PToolStripButton_Click(object sender, EventArgs e)
+        {
+            main_textBox.Paste();
+        }
+
+        private void 關於AToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            info input = new info();
+            input.ShowDialog();
+        }
+
+        private void 說明LToolStripButton_Click(object sender, EventArgs e)
+        {
+            info input = new info();
+            input.ShowDialog();
+        }
+
 
 
 

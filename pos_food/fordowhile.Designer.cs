@@ -43,7 +43,7 @@
             // label1
             // 
             this.label1.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label1.Location = new System.Drawing.Point(13, 498);
+            this.label1.Location = new System.Drawing.Point(13, 275);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(113, 51);
@@ -54,7 +54,7 @@
             // clean_button
             // 
             this.clean_button.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.clean_button.Location = new System.Drawing.Point(191, 487);
+            this.clean_button.Location = new System.Drawing.Point(191, 264);
             this.clean_button.Margin = new System.Windows.Forms.Padding(4);
             this.clean_button.Name = "clean_button";
             this.clean_button.Size = new System.Drawing.Size(132, 44);
@@ -102,7 +102,7 @@
             // 
             this.ninenine_button.BackColor = System.Drawing.SystemColors.Info;
             this.ninenine_button.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.ninenine_button.Location = new System.Drawing.Point(765, 339);
+            this.ninenine_button.Location = new System.Drawing.Point(780, 246);
             this.ninenine_button.Margin = new System.Windows.Forms.Padding(4);
             this.ninenine_button.Name = "ninenine_button";
             this.ninenine_button.Size = new System.Drawing.Size(136, 44);
@@ -117,7 +117,7 @@
             this.answer_label.BackColor = System.Drawing.SystemColors.Info;
             this.answer_label.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.answer_label.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.answer_label.Location = new System.Drawing.Point(13, 572);
+            this.answer_label.Location = new System.Drawing.Point(13, 343);
             this.answer_label.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.answer_label.Name = "answer_label";
             this.answer_label.Size = new System.Drawing.Size(61, 30);
@@ -171,7 +171,7 @@
             this.AutoScroll = true;
             this.AutoSize = true;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.ClientSize = new System.Drawing.Size(939, 653);
+            this.ClientSize = new System.Drawing.Size(939, 750);
             this.Controls.Add(this.question3_button);
             this.Controls.Add(this.question2_button);
             this.Controls.Add(this.question1_button);

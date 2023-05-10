@@ -50,20 +50,6 @@ namespace pos_food
 
         private void ninenine_button_Click(object sender, EventArgs e)
         {
-            /*
-            for (int i = 1; i < 10; i += 3)
-            {
-                for (int j = 1; j < 10; j++)
-                {
-                    answer_label.Text += ($"{i:##} * {j:##} = {i * j:##}");
-                    answer_label.Text += ($"{(i + 1):##} * {j:##} = {(i + 1) * j}");
-                    answer_label.Text += ($"{(i + 2):##} * {j:##} = {(i + 2) * j}\r\n");
-                }
-                //answer_label.Text += "";
-                //Console.WriteLine();
-            }
-            //Console.ReadKey();
-            */
             
             answer_label.Text = "九九乘法表\r\n" +
                 "2*1= 2|  3*1= 3|   4*1= 4|  5*1=  5|  6*1=  6|    7*1=   7|  8*1= 8|  9*1=  9|\r\n" +

@@ -48,7 +48,8 @@
             // menu_label
             // 
             this.menu_label.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.menu_label.Location = new System.Drawing.Point(43, 64);
+            this.menu_label.Font = new System.Drawing.Font("微軟正黑體", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.menu_label.Location = new System.Drawing.Point(13, 64);
             this.menu_label.Name = "menu_label";
             this.menu_label.Size = new System.Drawing.Size(239, 307);
             this.menu_label.TabIndex = 0;
@@ -60,7 +61,7 @@
             this.hamburger.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.hamburger.Font = new System.Drawing.Font("微軟正黑體", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.hamburger.ForeColor = System.Drawing.Color.Teal;
-            this.hamburger.Location = new System.Drawing.Point(62, 103);
+            this.hamburger.Location = new System.Drawing.Point(32, 103);
             this.hamburger.Name = "hamburger";
             this.hamburger.Size = new System.Drawing.Size(80, 105);
             this.hamburger.TabIndex = 1;
@@ -74,7 +75,7 @@
             this.pizza.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pizza.Font = new System.Drawing.Font("微軟正黑體", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.pizza.ForeColor = System.Drawing.Color.Teal;
-            this.pizza.Location = new System.Drawing.Point(175, 103);
+            this.pizza.Location = new System.Drawing.Point(145, 103);
             this.pizza.Name = "pizza";
             this.pizza.Size = new System.Drawing.Size(80, 105);
             this.pizza.TabIndex = 2;
@@ -88,7 +89,7 @@
             this.chicken.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.chicken.Font = new System.Drawing.Font("微軟正黑體", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.chicken.ForeColor = System.Drawing.Color.Teal;
-            this.chicken.Location = new System.Drawing.Point(62, 238);
+            this.chicken.Location = new System.Drawing.Point(32, 238);
             this.chicken.Name = "chicken";
             this.chicken.Size = new System.Drawing.Size(80, 105);
             this.chicken.TabIndex = 3;
@@ -102,7 +103,7 @@
             this.beer.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.beer.Font = new System.Drawing.Font("微軟正黑體", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.beer.ForeColor = System.Drawing.Color.Teal;
-            this.beer.Location = new System.Drawing.Point(175, 238);
+            this.beer.Location = new System.Drawing.Point(145, 238);
             this.beer.Name = "beer";
             this.beer.Size = new System.Drawing.Size(80, 105);
             this.beer.TabIndex = 4;
@@ -113,28 +114,30 @@
             // order_label
             // 
             this.order_label.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.order_label.Location = new System.Drawing.Point(519, 64);
+            this.order_label.Font = new System.Drawing.Font("微軟正黑體", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.order_label.Location = new System.Drawing.Point(489, 64);
             this.order_label.Name = "order_label";
-            this.order_label.Size = new System.Drawing.Size(239, 307);
+            this.order_label.Size = new System.Drawing.Size(278, 307);
             this.order_label.TabIndex = 5;
-            this.order_label.Text = "訂餐資訊 Order";
+            this.order_label.Text = "購物清單 List";
             // 
             // order_textBox
             // 
-            this.order_textBox.Location = new System.Drawing.Point(536, 94);
+            this.order_textBox.Font = new System.Drawing.Font("微軟正黑體", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.order_textBox.Location = new System.Drawing.Point(506, 94);
             this.order_textBox.Multiline = true;
             this.order_textBox.Name = "order_textBox";
-            this.order_textBox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.order_textBox.Size = new System.Drawing.Size(206, 207);
+            this.order_textBox.Size = new System.Drawing.Size(240, 207);
             this.order_textBox.TabIndex = 6;
             this.order_textBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.order_textBox.TextChanged += new System.EventHandler(this.order_textBox_TextChanged);
             // 
             // label1
             // 
             this.label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label1.Font = new System.Drawing.Font("標楷體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label1.ForeColor = System.Drawing.Color.Lime;
-            this.label1.Location = new System.Drawing.Point(288, 64);
+            this.label1.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label1.ForeColor = System.Drawing.Color.Black;
+            this.label1.Location = new System.Drawing.Point(258, 64);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(212, 91);
             this.label1.TabIndex = 7;
@@ -143,21 +146,22 @@
             // textBoxSubtotal
             // 
             this.textBoxSubtotal.BackColor = System.Drawing.SystemColors.InfoText;
+            this.textBoxSubtotal.Font = new System.Drawing.Font("新細明體", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.textBoxSubtotal.ForeColor = System.Drawing.SystemColors.Window;
-            this.textBoxSubtotal.Location = new System.Drawing.Point(305, 103);
-            this.textBoxSubtotal.Multiline = true;
+            this.textBoxSubtotal.Location = new System.Drawing.Point(275, 103);
             this.textBoxSubtotal.Name = "textBoxSubtotal";
-            this.textBoxSubtotal.Size = new System.Drawing.Size(177, 42);
+            this.textBoxSubtotal.Size = new System.Drawing.Size(177, 40);
             this.textBoxSubtotal.TabIndex = 8;
+            this.textBoxSubtotal.Text = "NT$ 0";
             this.textBoxSubtotal.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.textBoxSubtotal.UseWaitCursor = true;
             // 
             // label2
             // 
             this.label2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label2.Font = new System.Drawing.Font("標楷體", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label2.Font = new System.Drawing.Font("微軟正黑體", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(294, 180);
+            this.label2.Location = new System.Drawing.Point(264, 180);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(212, 191);
             this.label2.TabIndex = 9;
@@ -165,7 +169,7 @@
             // 
             // delete_button
             // 
-            this.delete_button.Location = new System.Drawing.Point(625, 324);
+            this.delete_button.Location = new System.Drawing.Point(595, 324);
             this.delete_button.Name = "delete_button";
             this.delete_button.Size = new System.Drawing.Size(104, 37);
             this.delete_button.TabIndex = 10;
@@ -175,7 +179,7 @@
             // 
             // cash_button
             // 
-            this.cash_button.Location = new System.Drawing.Point(345, 216);
+            this.cash_button.Location = new System.Drawing.Point(315, 216);
             this.cash_button.Name = "cash_button";
             this.cash_button.Size = new System.Drawing.Size(104, 37);
             this.cash_button.TabIndex = 11;
@@ -185,7 +189,7 @@
             // 
             // credit_button
             // 
-            this.credit_button.Location = new System.Drawing.Point(345, 264);
+            this.credit_button.Location = new System.Drawing.Point(315, 264);
             this.credit_button.Name = "credit_button";
             this.credit_button.Size = new System.Drawing.Size(104, 37);
             this.credit_button.TabIndex = 12;
@@ -196,8 +200,8 @@
             // label3
             // 
             this.label3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label3.Font = new System.Drawing.Font("新細明體", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label3.Location = new System.Drawing.Point(360, 324);
+            this.label3.Font = new System.Drawing.Font("新細明體", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label3.Location = new System.Drawing.Point(330, 324);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(140, 43);
             this.label3.TabIndex = 13;
@@ -208,7 +212,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(788, 409);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.credit_button);
             this.Controls.Add(this.cash_button);

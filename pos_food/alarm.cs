@@ -10,7 +10,6 @@ using System.Windows.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 using System.Media;
 
-//測試算完成，可優化程式碼或美化
 
 namespace pos_food
 {
@@ -29,7 +28,6 @@ namespace pos_food
             s = int.Parse(second_numericUpDown.Text);
 
             time_label.Text = DateTime.Now.ToString("T");
-            //time_label.Text = DateTime.Now.ToString();
 
             if (b == false  && set_checkBox.Checked == true)//證明時間沒到,進行一次時間判斷,時間到了就不要進行判斷
             {
@@ -53,27 +51,11 @@ namespace pos_food
         bool b = false;//這個變數記錄時間是否到了
         int h, m, s;
 
-
-        //private void set_checkBox_Click(object sender, EventArgs e)
-        //{
-        //    b = false;
-
-        //    //獲取設定的鬧鐘時間的小時數和分鐘數
-        //    h = int.Parse(hour_textBox.Text);
-        //    m = int.Parse(min_textBox.Text);
-        //    s = int.Parse(second_textBox.Text);
-        //}
-
-
-
         private void alarm_Load(object sender, EventArgs e)
         {
             timer1.Enabled = true;
             timer1.Interval = 1;
             timer1.Start();
-
-            
         }
-
     }
 }

@@ -10,10 +10,6 @@ using System.Windows.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
-//using Gif.Components;
-
-//隨機晃動
-//mousemove//gif
 
 namespace pos_food
 {
@@ -24,8 +20,6 @@ namespace pos_food
         {
             InitializeComponent();
         }
-
-
 
         private void screensaver_Click(object sender, EventArgs e)
         {
@@ -62,21 +56,9 @@ namespace pos_food
         int mmX, mmY; //繪圖動作起點
         Random R = new Random();
 
-        private void pictureBox1_MouseMove(object sender, MouseEventArgs e)
-        {
-            //MessageBox.Show("哈哈")
-
-        }
-
         private void label1_MouseMove(object sender, MouseEventArgs e)
         {
             this.Close();
         }
-
-
-
-
-
-
     }
 }

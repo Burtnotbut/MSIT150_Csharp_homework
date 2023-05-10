@@ -11,14 +11,11 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace pos_food
 {
-
-
     public partial class info : Form
     {
         public info()
         {
             InitializeComponent();
         }
-
     }
 }

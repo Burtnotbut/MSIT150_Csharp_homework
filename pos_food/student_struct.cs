@@ -8,8 +8,6 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-//同分問題
-
 namespace pos_food
 {
     public partial class student_struct : Form
@@ -18,24 +16,6 @@ namespace pos_food
         int chinese, english, math;
         int high, low;
         int[] grade_array;
-        int rehigh, relow;
-        string shhigh, shlow;
-
-        private void grade_groupBox_Enter(object sender, EventArgs e)
-        {
-
-        }
-
-        private void grade_order_textBox_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void most_textBox_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
 
         public student_struct()
         {
@@ -48,7 +28,6 @@ namespace pos_food
             chinese = Convert.ToInt32(chinese_textBox.Text);
             english = Convert.ToInt32(english_textBox.Text);
             math = Convert.ToInt32(math_textBox.Text);
-
         }
 
         private void show_save_button_Click(object sender, EventArgs e)
@@ -61,68 +40,69 @@ namespace pos_food
 
         private void show_most_button_Click(object sender, EventArgs e)
         {
-
+            int high;
+            int low;
 
             grade_array = new int[]{ chinese, english, math};
 
+            high = grade_array[0];
+            low = grade_array[0];
+
             for (int a = 0; a < grade_array.Length; a++)
             {
-                high = grade_array[0];
                 if ( high < grade_array[a])
                 {
                     high = grade_array[a];
-                    rehigh = a;
                 }
             }
 
             for (int b = 0; b < grade_array.Length; b++)
             {
-                low = grade_array[0];
                 if (low > grade_array[b])
                 {
                     low = grade_array[b];
-                    relow = b;
                 }
             }
 
-            if ( rehigh == 0 )
+            string shhigh_a = "";
+            string shhigh_b = "";
+            string shhigh_c = "";
+            string shlow_a = "";
+            string shlow_b = "";
+            string shlow_c = "";
+
+            if ( chinese == high )
             {
-                shhigh = "國文";
+                shhigh_a = "國文";
             }
 
-            if (rehigh == 1)
+            if ( english == high)
             {
-                shhigh = "英文";
+                shhigh_b = "英文";
             }
 
-            if (rehigh == 2)
+            if ( math == high)
             {
-                shhigh = "數學";
+                shhigh_c = "數學";
             }
 
-            if (relow == 0)
+            if ( chinese == low)
             {
-                shlow = "國文";
+                shlow_a = "國文";
             }
 
-            if (relow == 1)
+            if ( english == low)
             {
-                shlow = "英文";
+                shlow_b = "英文";
             }
 
-            if (relow == 2)
+            if ( math == low)
             {
-                shlow = "數學";
+               shlow_c  = "數學";
             }
 
-            this.most_textBox.Text = "最高科目成績為 : " + shhigh + high + "分\r\n"
-                + "最低科目成績為 : " + shlow + low + "分\r\n";
-
-
-
+            this.most_textBox.Text = "最高科目成績為 : " + shhigh_a + shhigh_b + shhigh_c + high + "分\r\n"
+                + "最低科目成績為 : " + shlow_a +shlow_b + shlow_c + low + "分\r\n";
         }
-
-
-
     }
 }

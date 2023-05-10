@@ -11,7 +11,6 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace pos_food
 {
-
     public delegate void ChangeTextHandler(string str1, string str2, string tips);
 
     public partial class hint : Form
@@ -22,10 +21,8 @@ namespace pos_food
         }
 
         public event ChangeTextHandler ChangeText;
-
         private string Msg;
         int guess,  min, max;
-
 
         private void enter_button_Click(object sender, EventArgs e)
         {
@@ -63,8 +60,6 @@ namespace pos_food
             }
         }
 
-
-
         private void cancel_button_Click(object sender, EventArgs e)
         {
             this.Close();
@@ -76,6 +71,5 @@ namespace pos_food
             min = min_a;
             max = max_a;
         }
-
     }
 }

@@ -92,7 +92,7 @@ namespace pos_food
             search_panel.Visible =false;
         }
 
-        //搜尋-->功能不全
+
         private void search_button_Click(object sender, EventArgs e)
         {
             int P;
@@ -133,8 +133,6 @@ namespace pos_food
             mdy = e.Y;
         }
 
-
-
         private void search_panel_MouseMove(object sender, MouseEventArgs e)
         {
             if (e.Button == System.Windows.Forms.MouseButtons.Left) //左鍵為按下狀態
@@ -143,7 +141,6 @@ namespace pos_food
                 search_panel.Top += e.Y - mdy;
             }
         }
-
 
         //顏色選擇
         private void 顏色ToolStripMenuItem_Click(object sender, EventArgs e)
@@ -218,12 +215,6 @@ namespace pos_food
             info input = new info();
             input.ShowDialog();
         }
-
-
-
-
-
-
 
         //字型選擇
         private void 字型ToolStripMenuItem_Click(object sender, EventArgs e)

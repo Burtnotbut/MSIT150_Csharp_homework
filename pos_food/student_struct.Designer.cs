@@ -48,7 +48,7 @@
             // name_label
             // 
             this.name_label.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.name_label.Location = new System.Drawing.Point(151, 112);
+            this.name_label.Location = new System.Drawing.Point(17, 30);
             this.name_label.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.name_label.Name = "name_label";
             this.name_label.Size = new System.Drawing.Size(155, 51);
@@ -59,7 +59,7 @@
             // math_label
             // 
             this.math_label.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.math_label.Location = new System.Drawing.Point(151, 371);
+            this.math_label.Location = new System.Drawing.Point(17, 270);
             this.math_label.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.math_label.Name = "math_label";
             this.math_label.Size = new System.Drawing.Size(155, 51);
@@ -70,7 +70,7 @@
             // english_label
             // 
             this.english_label.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.english_label.Location = new System.Drawing.Point(151, 285);
+            this.english_label.Location = new System.Drawing.Point(17, 190);
             this.english_label.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.english_label.Name = "english_label";
             this.english_label.Size = new System.Drawing.Size(155, 51);
@@ -81,7 +81,7 @@
             // chinese_label
             // 
             this.chinese_label.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.chinese_label.Location = new System.Drawing.Point(151, 199);
+            this.chinese_label.Location = new System.Drawing.Point(17, 110);
             this.chinese_label.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.chinese_label.Name = "chinese_label";
             this.chinese_label.Size = new System.Drawing.Size(155, 51);
@@ -92,7 +92,7 @@
             // name_textBox
             // 
             this.name_textBox.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.name_textBox.Location = new System.Drawing.Point(376, 112);
+            this.name_textBox.Location = new System.Drawing.Point(242, 30);
             this.name_textBox.Margin = new System.Windows.Forms.Padding(4);
             this.name_textBox.Name = "name_textBox";
             this.name_textBox.Size = new System.Drawing.Size(199, 38);
@@ -103,7 +103,7 @@
             // chinese_textBox
             // 
             this.chinese_textBox.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.chinese_textBox.Location = new System.Drawing.Point(376, 199);
+            this.chinese_textBox.Location = new System.Drawing.Point(242, 110);
             this.chinese_textBox.Margin = new System.Windows.Forms.Padding(4);
             this.chinese_textBox.Name = "chinese_textBox";
             this.chinese_textBox.Size = new System.Drawing.Size(199, 38);
@@ -114,7 +114,7 @@
             // english_textBox
             // 
             this.english_textBox.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.english_textBox.Location = new System.Drawing.Point(376, 285);
+            this.english_textBox.Location = new System.Drawing.Point(242, 190);
             this.english_textBox.Margin = new System.Windows.Forms.Padding(4);
             this.english_textBox.Name = "english_textBox";
             this.english_textBox.Size = new System.Drawing.Size(199, 38);
@@ -125,7 +125,7 @@
             // math_textBox
             // 
             this.math_textBox.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.math_textBox.Location = new System.Drawing.Point(376, 371);
+            this.math_textBox.Location = new System.Drawing.Point(242, 270);
             this.math_textBox.Margin = new System.Windows.Forms.Padding(4);
             this.math_textBox.Name = "math_textBox";
             this.math_textBox.Size = new System.Drawing.Size(199, 38);
@@ -136,10 +136,10 @@
             // save_button
             // 
             this.save_button.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.save_button.Location = new System.Drawing.Point(68, 591);
+            this.save_button.Location = new System.Drawing.Point(11, 357);
             this.save_button.Margin = new System.Windows.Forms.Padding(4);
             this.save_button.Name = "save_button";
-            this.save_button.Size = new System.Drawing.Size(255, 106);
+            this.save_button.Size = new System.Drawing.Size(202, 85);
             this.save_button.TabIndex = 9;
             this.save_button.Text = "儲存";
             this.save_button.UseVisualStyleBackColor = true;
@@ -148,10 +148,10 @@
             // show_save_button
             // 
             this.show_save_button.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.show_save_button.Location = new System.Drawing.Point(400, 591);
+            this.show_save_button.Location = new System.Drawing.Point(245, 357);
             this.show_save_button.Margin = new System.Windows.Forms.Padding(4);
             this.show_save_button.Name = "show_save_button";
-            this.show_save_button.Size = new System.Drawing.Size(255, 106);
+            this.show_save_button.Size = new System.Drawing.Size(202, 85);
             this.show_save_button.TabIndex = 10;
             this.show_save_button.Text = "顯示儲存內容";
             this.show_save_button.UseVisualStyleBackColor = true;
@@ -162,24 +162,24 @@
             this.grade_groupBox.Controls.Add(this.most_textBox);
             this.grade_groupBox.Controls.Add(this.grade_order_textBox);
             this.grade_groupBox.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.grade_groupBox.Location = new System.Drawing.Point(674, 45);
+            this.grade_groupBox.Location = new System.Drawing.Point(473, 12);
             this.grade_groupBox.Name = "grade_groupBox";
-            this.grade_groupBox.Size = new System.Drawing.Size(661, 565);
+            this.grade_groupBox.Size = new System.Drawing.Size(608, 495);
             this.grade_groupBox.TabIndex = 11;
             this.grade_groupBox.TabStop = false;
             this.grade_groupBox.Text = "成績";
-            this.grade_groupBox.Enter += new System.EventHandler(this.grade_groupBox_Enter);
+            //this.grade_groupBox.Enter += new System.EventHandler(this.grade_groupBox_Enter);
             // 
             // most_textBox
             // 
             this.most_textBox.BackColor = System.Drawing.SystemColors.Control;
             this.most_textBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.most_textBox.Location = new System.Drawing.Point(35, 377);
+            this.most_textBox.Location = new System.Drawing.Point(35, 318);
             this.most_textBox.Multiline = true;
             this.most_textBox.Name = "most_textBox";
-            this.most_textBox.Size = new System.Drawing.Size(607, 160);
+            this.most_textBox.Size = new System.Drawing.Size(540, 160);
             this.most_textBox.TabIndex = 8;
-            this.most_textBox.TextChanged += new System.EventHandler(this.most_textBox_TextChanged);
+            //this.most_textBox.TextChanged += new System.EventHandler(this.most_textBox_TextChanged);
             // 
             // grade_order_textBox
             // 
@@ -188,17 +188,17 @@
             this.grade_order_textBox.Location = new System.Drawing.Point(35, 57);
             this.grade_order_textBox.Multiline = true;
             this.grade_order_textBox.Name = "grade_order_textBox";
-            this.grade_order_textBox.Size = new System.Drawing.Size(607, 301);
+            this.grade_order_textBox.Size = new System.Drawing.Size(540, 241);
             this.grade_order_textBox.TabIndex = 7;
-            this.grade_order_textBox.TextChanged += new System.EventHandler(this.grade_order_textBox_TextChanged);
+            //this.grade_order_textBox.TextChanged += new System.EventHandler(this.grade_order_textBox_TextChanged);
             // 
             // show_most_button
             // 
             this.show_most_button.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.show_most_button.Location = new System.Drawing.Point(872, 642);
+            this.show_most_button.Location = new System.Drawing.Point(772, 532);
             this.show_most_button.Margin = new System.Windows.Forms.Padding(4);
             this.show_most_button.Name = "show_most_button";
-            this.show_most_button.Size = new System.Drawing.Size(433, 55);
+            this.show_most_button.Size = new System.Drawing.Size(252, 55);
             this.show_most_button.TabIndex = 12;
             this.show_most_button.Text = "最高分/最低分科目";
             this.show_most_button.UseVisualStyleBackColor = true;
@@ -208,7 +208,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1349, 727);
+            this.ClientSize = new System.Drawing.Size(1100, 603);
             this.Controls.Add(this.show_most_button);
             this.Controls.Add(this.grade_groupBox);
             this.Controls.Add(this.show_save_button);

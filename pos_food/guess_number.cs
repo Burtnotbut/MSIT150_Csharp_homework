@@ -32,8 +32,6 @@ namespace pos_food
             title_label.Text = "Please Select A Number Between 1 to 100!";
         }
 
-
-
         //猜數字的框框
         private void guess_button_Click(object sender, EventArgs e)
         {
@@ -42,7 +40,6 @@ namespace pos_food
             input.SendNumber(guess, min, max);
             input.ChangeText += new ChangeTextHandler(Change_Text);
             input.ShowDialog();
-
         }
 
         //回傳數值

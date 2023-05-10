@@ -19,8 +19,6 @@ namespace pos_food
 
         private void color_button_Click(object sender, EventArgs e)
         {
-            //colorDialog1.ShowDialog();  //開啟對話方塊
-            //main_textBox.ForeColor = colorDialog1.Color;
             if (colorDialog1.ShowDialog() == DialogResult.OK)
             {
                 color_textBox.BackColor = colorDialog1.Color;
@@ -47,9 +45,6 @@ namespace pos_food
         {
             value_label.Text = trackBar1.Value.ToString();
         }
-
-            
-
 
         //塗鴉動作
         private void pictureBox1_MouseMove(object sender, MouseEventArgs e)

@@ -8,11 +8,6 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-
-
-
-
-
 namespace pos_food
 {
     public partial class students_grade : Form
@@ -26,7 +21,6 @@ namespace pos_food
         
         string name;
         string chinese, english, math;
-        //string[] scores = new string[2][7,];
 
 
         private void random_add_button_Click(object sender, EventArgs e)

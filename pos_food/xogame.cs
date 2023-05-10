@@ -8,7 +8,6 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-//測試算完成
 
 namespace pos_food
 {
@@ -18,7 +17,6 @@ namespace pos_food
         {
             InitializeComponent();
         }
-
 
         //重玩按鍵
         private void reset_button_Click(object sender, EventArgs e)

@@ -9,7 +9,6 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
-
 //contextMenuStrip上面抓一格，下面抓二格
 
 namespace pos_food
@@ -216,7 +215,5 @@ namespace pos_food
             right_panel.Controls.Add(son);
             form.Show();
         }
-
-
     }
 }

@@ -62,14 +62,7 @@ namespace pos_food
         private void calculateSubTotal() // 計算小計
         {
             subTotal = ham_num * 150 + piz_num * 200 + chi_num * 300 + bee_num * 100;          
-            textBoxSubtotal.Text = subTotal.ToString();
-
-            /*
-            price = double.Parse(textBoxPrice.Text);
-            number = (double)numericUpDownNumber.Value;
-            subTotal = price * number; // 小計 = 價格 * 數量
-           
-            */
+            textBoxSubtotal.Text = "NT$ " + subTotal.ToString();
         }
 
         private void delete_button_Click(object sender, EventArgs e)
@@ -80,18 +73,41 @@ namespace pos_food
             chi_num = 0;
             bee_num = 0;
             subTotal = 0;
-            textBoxSubtotal.Text = subTotal.ToString();
+            textBoxSubtotal.Text = "NT$ " + subTotal.ToString();
         }
 
         private void cash_button_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("總金額: " + subTotal , "確認付款" );
+            if ( subTotal == 0 )
+            {
+                MessageBox.Show("尚未點餐!", "確認付款", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
+            else
+            {
+                MessageBox.Show("總金額: NT$" + subTotal, "確認付款", MessageBoxButtons.OKCancel);
+            }
         }
 
         private void credit_button_Click(object sender, EventArgs e)
         {
-            subTotal = subTotal * 0.9;
-            MessageBox.Show("總金額: " + subTotal, "確認付款");
+            if ( subTotal == 0 )
+            {
+                MessageBox.Show("尚未點餐!", "確認付款", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
+            else
+            {
+                int creTotal;
+                creTotal = (int)(subTotal * 0.9);
+                MessageBox.Show("總金額: NT$ " + subTotal + "\r\n折扣後金額 : NT$ " + creTotal, "確認付款", MessageBoxButtons.OKCancel);
+            }
+        }
+
+        private void order_textBox_TextChanged(object sender, EventArgs e)
+        {
+            if ( order_textBox.SelectionStart <= order_textBox.Text.Length)
+            {
+                order_textBox.ScrollBars = ScrollBars.Vertical;
+            }
         }
     }
 }

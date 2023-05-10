@@ -8,7 +8,6 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
-using System.Linq;
 using System.Collections;
 
 namespace pos_food
@@ -40,8 +39,6 @@ namespace pos_food
             {
                 MessageBox.Show("請輸入數值");
             }
-
-            //user_num = Convert.ToInt32((number_textBox.Text);
         }
 
 
@@ -92,14 +89,10 @@ namespace pos_food
         {
             Array.Sort(arr0711_Str);
             int num = arr0711_Str.Length;
-            //answer_label.Text = arr0711_Str;
-
             foreach (string str in arr0711_Str)
             {
                 answer_label.Text += str;
             }
-                
-            //answer_label.Text = "int陣列arr0711[]\r\n最長的名字為"+ arr0711_Str[arr0711_Str.Length - 1];
         }
     }
 }

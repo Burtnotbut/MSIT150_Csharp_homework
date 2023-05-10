@@ -19,8 +19,6 @@ namespace pos_food
 
         double num1, num2, ans;
 
-
-
         private void add_button_Click(object sender, EventArgs e)
         {
             num1 = Convert.ToDouble(num1_textBox.Text);
@@ -28,7 +26,6 @@ namespace pos_food
             ans = num1 + num2;
             answer_textBox.Text = Convert.ToString(ans);
         }
-
 
         private void sub_button_Click(object sender, EventArgs e)
         {

@@ -44,16 +44,6 @@ namespace pos_food
             Image img = Image.FromFile(fileNames[listViewFile.FocusedItem.Index]);
             frm.ImageBox = img;
             frm.Show();
-
-            //if (listViewFile.FocusedItem != null)
-            //{
-            //    using( pictureviewer3 frm = new pictureviewer3() )
-            //    {
-            //        Image img = Image.FromFile(fileNames[listViewFile.FocusedItem.Index]);
-            //        frm.ImageBox = img;
-            //        frm.Show();
-            //    }
-            //}
         }
     }
 }

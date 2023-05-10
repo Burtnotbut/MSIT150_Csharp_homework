@@ -18,8 +18,6 @@ namespace pos_food
             InitializeComponent();
         }
 
-
-
         public void SetTextBox(string text1, string text2, string text3, double text4, double text5) //實作一個公開方法，使其他Form可以傳遞資料進來
         {
             money2_label.Text = text1;

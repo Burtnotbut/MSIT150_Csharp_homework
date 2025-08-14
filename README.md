@@ -73,6 +73,12 @@
 
 ---
 
+## 📷 預覽
+<img width="682" height="620" alt="image" src="https://github.com/user-attachments/assets/356cdb83-e4a5-4898-85d1-eff91eba592a" />
+
+
+---
+
 ## 📄 授權
 此專案僅供學習與練習用途。
 

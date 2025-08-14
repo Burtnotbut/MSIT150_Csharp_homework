@@ -85,13 +85,6 @@
 ## 📷 預覽
 <img width="664" height="608" alt="image" src="https://github.com/user-attachments/assets/38e67d61-792e-45d8-8dc6-7b677fa257b6" />
 
-
-
----
-
-## 📄 授權
-此專案僅供學習與練習用途。
-
 <br><br><br><br>
 
 # 🖥 C#_homework
@@ -180,10 +173,3 @@ This is a collection of C# class assignments, containing multiple independent mi
 
 ## 📷 Preview
 <img width="664" height="608" alt="image" src="https://github.com/user-attachments/assets/38e67d61-792e-45d8-8dc6-7b677fa257b6" />
-
-
-
----
-
-## 📄 License
-This project is for learning and practice purposes only.

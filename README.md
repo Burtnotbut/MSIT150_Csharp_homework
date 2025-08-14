@@ -82,6 +82,7 @@
 
 ## 📄 授權
 此專案僅供學習與練習用途。
+- **製作日期**: 2023年8月
 
 <br><br><br><br>
 
@@ -170,3 +171,4 @@ The project showcases various C# application techniques in desktop application d
 
 ## 📄 License
 This project is for learning and practice purposes only.
+- **Creation Date**: August 2023

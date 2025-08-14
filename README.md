@@ -77,6 +77,11 @@
 此專案僅供學習與練習用途。
 
 
+
+
+
+
+
 # 🖥 C#_homework
 
 This is a collection of C# class assignments, containing multiple independent mini-projects and practice exercises, covering basic syntax, Windows Forms development, file handling, data processing, and simple system development.  

@@ -74,7 +74,8 @@
 ---
 
 ## 📷 預覽
-<img width="682" height="620" alt="image" src="https://github.com/user-attachments/assets/356cdb83-e4a5-4898-85d1-eff91eba592a" />
+<img width="664" height="608" alt="image" src="https://github.com/user-attachments/assets/38e67d61-792e-45d8-8dc6-7b677fa257b6" />
+
 
 
 ---

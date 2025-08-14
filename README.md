@@ -75,3 +75,83 @@
 
 ## 📄 授權
 此專案僅供學習與練習用途。
+
+
+# 🖥 C#_homework
+
+This is a collection of C# class assignments, containing multiple independent mini-projects and practice exercises, covering basic syntax, Windows Forms development, file handling, data processing, and simple system development.  
+The project showcases various C# application techniques in desktop application development.
+
+---
+
+## 📂 Features & Contents
+
+| File Name | Description |
+|-----------|-------------|
+| **alarm.cs** | Alarm function using `Timer` for scheduled reminders. |
+| **fordowhile.cs** | Practice with `for` and `do while` loops. |
+| **guess_number.cs** | Number guessing game using `Random` to generate numbers and compare results. |
+| **hello.cs** | Basic Hello World UI test. |
+| **hint.cs** | Game hint feature. |
+| **HomePage.cs** | Main homepage that integrates all function entry points. |
+| **info.cs** | Personal information display page. |
+| **junior_painter.cs** | Mini painter app using mouse events and GDI+ drawing. |
+| **loan.cs / loan_report.cs** | Loan calculator and report generation. |
+| **method.cs** | Method and parameter passing practice. |
+| **mylcac.cs** | Calculator application. |
+| **notepad.cs** | Notepad feature with open and save text file functions. |
+| **pictureviewer.cs / pictureviewer2.cs / pictureviewer3.cs** | Image viewer supporting multiple picture navigation. |
+| **pos.cs** | POS ordering system to calculate food prices and display receipts. |
+| **screensaver.cs** | Simple screensaver with moving image animation. |
+| **student_struct.cs / students_grade.cs** | Student grade management (average, highest, lowest score calculation). |
+| **Utility.cs** | Common utility methods. |
+| **xogame.cs** | Tic-tac-toe game with win/lose detection and UI click events. |
+
+---
+
+## 🛠 Technologies Used
+
+### 1. **C# Basic Syntax**
+- Variables & constants
+- Conditional statements (`if` / `switch`)
+- Loop control (`for` / `while` / `do while`)
+- Methods & parameter passing
+- Structures (`struct`)
+
+### 2. **Windows Forms Development**
+- Basic controls: Button, Label, TextBox, PictureBox, Timer
+- Event handling: Click, MouseMove, MouseDown
+- Multi-form navigation and data passing
+
+### 3. **GDI+ Drawing**
+- Using `Graphics`, `Pen`, `Brush` to draw lines and shapes
+- Mouse event drawing (Mini Painter feature)
+
+### 4. **File Handling**
+- Text file reading/writing (`StreamReader` / `StreamWriter`)
+- Image loading and display (`OpenFileDialog`)
+
+### 5. **Data Processing**
+- Arrays & Lists
+- Sorting & searching
+- Calculating averages, maximums, and minimums
+
+### 6. **Mini System Integration Examples**
+- POS ordering system
+- Loan calculator
+- Student grade management
+- Number guessing game
+- Tic-tac-toe game
+- Screensaver program
+
+---
+
+## 🚀 How to Run
+1. Open the project with Visual Studio 2022
+2. Build and run
+3. Select the desired feature from the homepage
+
+---
+
+## 📄 License
+This project is for learning and practice purposes only.

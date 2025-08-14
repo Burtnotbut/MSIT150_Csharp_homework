@@ -91,14 +91,21 @@
 
 ## 📄 授權
 此專案僅供學習與練習用途。
-- **製作日期**: 2023年8月
 
 <br><br><br><br>
 
 # 🖥 C#_homework
 
-This is a collection of C# class assignments, containing multiple independent mini-projects and practice exercises, covering basic syntax, Windows Forms development, file handling, data processing, and simple system development.  
-The project showcases various C# application techniques in desktop application development.
+<span style="font-size:18px;">
+👋 Hi, I’m <b>Pohsun Chiang</b>!<br>
+This is a collection of C# class assignments, containing multiple independent mini-projects and practice exercises, covering basic syntax, Windows Forms development, file handling, data processing, and simple system development. <br>
+<br>
+  
+- **Technologies Used**: C#、Windows Forms<br>
+- **Creation Date**: August 2023<br>
+- **Description**: The project showcases various C# application techniques in desktop application development.
+</span>
+
 
 ---
 
@@ -180,4 +187,3 @@ The project showcases various C# application techniques in desktop application d
 
 ## 📄 License
 This project is for learning and practice purposes only.
-- **Creation Date**: August 2023
